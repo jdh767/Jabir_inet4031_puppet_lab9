@@ -44,5 +44,5 @@ package { 'mariadb-server':
 }
 
 service { 'mariadb-server':
-  name => systemctl status mariadb, 
+  name => mariadb,
 }
